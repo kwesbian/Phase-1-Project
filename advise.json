@@ -1,0 +1,45 @@
+{
+    "goals": [
+      {
+        "id": "weight_loss",
+        "name": "Weight Loss",
+        "advice": {
+          "vegan": "As a vegan, focus on whole foods like fruits, vegetables, and whole grains. Avoid processed foods and added sugars.",
+          "vegetarian": "As a vegetarian, focus on whole foods like fruits, vegetables, and whole grains. Incorporate lean protein sources like legumes and nuts.",
+          "omnivore": "Focus on whole foods like fruits, vegetables, and whole grains. Incorporate lean protein sources like lean meats and fish."
+        }
+      },
+      {
+        "id": "muscle_gain",
+        "name": "Muscle Gain",
+        "advice": {
+          "vegan": "As a vegan, focus on plant-based protein sources like legumes, nuts, and seeds. Incorporate healthy fats like avocado and olive oil.",
+          "vegetarian": "As a vegetarian, focus on plant-based protein sources like legumes, nuts, and seeds. Incorporate healthy fats like avocado and olive oil.",
+          "omnivore": "Focus on lean protein sources like lean meats, fish, and eggs. Incorporate healthy fats like avocado and olive oil."
+        }
+      },
+      {
+        "id": "improve_energy",
+        "name": "Improve Energy",
+        "advice": {
+          "vegan": "As a vegan, focus on iron-rich foods like beans, lentils, and dark leafy greens. Incorporate healthy fats like nuts and seeds.",
+          "vegetarian": "As a vegetarian, focus on iron-rich foods like beans, lentils, and dark leafy greens. Incorporate healthy fats like nuts and seeds.",
+          "omnivore": "Focus on iron-rich foods like red meat, poultry, and fish. Incorporate healthy fats like nuts and seeds."
+        }
+      }
+    ],
+    "allergies": [
+      {
+        "id": "gluten",
+        "name": "Gluten"
+      },
+      {
+        "id": "dairy",
+        "name": "Dairy"
+      },
+      {
+        "id": "nuts",
+        "name": "Nuts"
+      }
+    ]
+  }

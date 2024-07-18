@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: none;
+  text-decoration: red;
+}
+
+#popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#popup h2 {
+  margin-top: 0;
+}
+
+#popup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#popup input[type="text"], #popup input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#popup input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#popup input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#subscribe-btn{
+  background-color: yellow;
+  color: white;
+  border: none;
+  padding: 6px ;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#subscribe-btn:hover {
+  animation: flash 0.5s infinite;
+}
+
+@keyframes flash {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+#decline-btn{
+  background-color: yellow;
+  color: white;
+  border: none;
+  padding: 7px 10px ;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#decline-btn:hover {
+  background-color: red;
+  transition: 0.5s ease;
+}
+
+button{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 7px 10px ;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#mad-emoji {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+font-size: 100px;
+text-align: center;
+display: none;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select,
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"],
+button#calculate-bmi {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button#calculate-bmi:hover {
+  background-color: red;
+}
+
+#advice-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+#advice {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#bmi-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+#bmi-result {
+  font-size: 18px;
+  font-weight: bold;
+}
+

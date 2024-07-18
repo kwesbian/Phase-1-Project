@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutriPlus</title>
+    <link rel="icon" href="NutriPlus.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Premium Service Subscription</title>
+  </head>
+  <body>
+    <!-- The popup container -->
+  <div id="popup">
+    <h2>Subscribe to Premium Service</h2>
+    <p>Get access to exclusive features <br> and personalized support for a fee <br><button>of $9.99/month.</button></p>
+    <button id="subscribe-btn">Subscribe 🎉</button>
+        <!-- The popup container -->
+        <div id="popup-container" style="display: none;">
+          <div id="popup">
+            <h2>Subscribe to our service</h2>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="credit-card">Credit Card:</label>
+              <input type="text" id="credit-card" name="credit-card"><br><br>
+              <input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </button>
+    <button id="decline-btn">Nah!</button>
+  </div>
+
+   <!-- The mad emoji container -->
+  <div id="mad-emoji">🤬</div>
+  
+    <h1>Nutritionist Advisor</h1>
+    <form id="nutritionist-form">
+      <label for="goal">What is your health goal?</label>
+      <select id="goal" name="goal">
+        <option value="">Select a goal</option>
+        <option value="weight_loss">Weight Loss</option>
+        <option value="muscle_gain">Muscle Gain</option>
+        <option value="improve_energy">Improve Energy</option>
+      </select>
+      <label for="diet">What is your current diet?</label>
+      <select id="diet" name="diet">
+        <option value="">Select a diet</option>
+        <option value="vegan">Vegan</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="omnivore">Omnivore</option>
+      </select>
+      <label for="allergies">Do you have any food allergies?</label>
+      <input type="text" id="allergies" name="allergies" />
+      <button type="submit">Get Advice</button>
+    </form>
+    <div id="advice-container">
+      <h3>Advice from a Nutritionist:</h3>
+      <p id="advice"></p>
+    </div>
+
+    <div id="bmi-container">
+      <h3>BMI Calculator:</h3>
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" name="weight" />
+      <label for="height">Height (m):</label>
+      <input type="number" id="height" name="height" />
+      <button id="calculate-bmi">Calculate BMI</button>
+      <p id="bmi-result"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
